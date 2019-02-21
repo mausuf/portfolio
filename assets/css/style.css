@@ -1,0 +1,30 @@
+.mmsOctocat {
+    height: 34px;
+    width: 34px;
+}
+
+.contactTextArea {
+    height: 200px;
+}
+
+.nav {
+    height: 250px;
+}
+
+.gallery {
+    margin-bottom: 0px;
+}
+
+.tagLine, .nameHeading, .gallery-header{
+    font-weight: bolder!important;
+    opacity: .8!important;
+}
+
+.nameHeading {
+    font-size: 74px!important;
+}
+
+.tagLine {
+    font-size: 22px!important;
+}
+
