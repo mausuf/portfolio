@@ -1,7 +1,13 @@
-.mmsOctocat {
+.octoCat {
     height: 34px;
     width: 34px;
     margin-left: 80px;
+}
+
+.linkedIn {
+    height: 34px;
+    width: 34px;
+    margin-left: 125px;
 }
 
 .contactTextArea {
@@ -40,4 +46,14 @@
 }
 
 
+/*Media Query*/
+@media only screen and (max-width: 992px) {
+    .octoCat {
+        margin-left: -80px;
+    }
 
+    .card {
+        width: 100% !important;
+    }
+
+}
