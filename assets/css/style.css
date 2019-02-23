@@ -1,6 +1,7 @@
 .mmsOctocat {
     height: 34px;
     width: 34px;
+    margin-left: 80px;
 }
 
 .contactTextArea {
@@ -27,4 +28,16 @@
 .tagLine {
     font-size: 22px!important;
 }
+
+.card {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    opacity: 0.7!important;
+    padding: 50px;
+    column-gap: 200px!important;
+
+}
+
+
 
