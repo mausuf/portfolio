@@ -1,7 +1,11 @@
-.brandLinkCat, .brandLinkLinked, .octoCat, .linkedIn {
+.brandLinkCat, .brandLinkLinked, .octoCat, .linkedIn, .brandLinkCV {
     width: 34px;
     height: 34px;
     /*margin-bottom: -100px;*/
+}
+
+.brandLinkCV {
+    /*margin-top: -1px!important;*/
 }
 
 .octoCat {
@@ -14,66 +18,124 @@
     /*margin-top: -15px;*/
 }
 
+.CV {
+    margin-left: 174px;
+    width: 36px;
+    height: 36px;
+}
+
+
+/*cards*/
+
+.profilePic {
+    width: 100px;
+    height: 100px;
+    margin-top: -15px;
+}
+
+
 .contactTextArea {
     height: 200px;
+
 }
 
 .contactTextRowDiv{
-    margin-top: -20px;
+    margin-top: -10px;
 }
 
 .nav {
     height: 250px;
 }
 
+.nav-header {
+    opacity: 0.8;
+}
+
 .gallery {
     margin-bottom: 0px;
 }
 
-.tagLine, .nameHeading, .gallery-header{
+.tagLine, .nameHeading, {
     font-weight: bolder!important;
-    opacity: .8!important;
+    opacity:.5!important;
 }
 
 .nameHeading {
-    font-size: 74px!important;
+    font-size: 76px!important;
+
 }
 
 .tagLine {
-    font-size: 22px!important;
+    font-size: 24px!important;
+    margin-top: -20px;
 }
 
 .card {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 15px;
-    opacity: 0.7!important;
+    opacity: 0.85;
     padding: 60px;
     column-gap: 200px!important;
+    /*position: absolute;*/
+}
 
+.contactCard {
+    margin-top: -165px;
 }
 
 .cardHeading {
     font-size: 30px;
     font-weight: bolder;
+    color: #595959;
+}
+
+.caption {
+    color: #595959 !important;
+    font-size: 22px;
 }
 
 .submitButton {
-    margin-top: -35px;
+    margin-top: 0px;
     width: 95px;
-    font-family: "Amatic SC";
+    font-family: "VT323";
     font-size: 16px;
     font-weight: bolder;
 }
 
+.bodyRowDiv {
+    position: relative!important;
+}
+
+.row {
+    position: relative!important;
+}
+
+
+
 /*Media Query*/
 @media only screen and (max-width: 992px) {
     .octoCat {
-        margin-left: -80px;
+        margin: auto;
+        margin-left: -44px;
+    }
+
+    .linkedIn{
+        margin: auto;
+        margin-left: 0px;
+    }
+
+    .CV {
+        margin: auto;
+        margin-left: 40px;
     }
 
     .card {
         width: 100% !important;
+    }
+
+    .contactCard, .aboutMeCard, .ffCard, .addAppsCard  {
+        margin: auto ;
     }
 
 }
