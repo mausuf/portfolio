@@ -1,17 +1,25 @@
-.octoCat {
-    height: 34px;
+.brandLinkCat, .brandLinkLinked, .octoCat, .linkedIn {
     width: 34px;
-    margin-left: 80px;
+    height: 34px;
+    /*margin-bottom: -100px;*/
+}
+
+.octoCat {
+    margin-left: 80px ;
+    /*margin-top: -15px;*/
 }
 
 .linkedIn {
-    height: 34px;
-    width: 34px;
-    margin-left: 125px;
+    margin-left: 130px ;
+    /*margin-top: -15px;*/
 }
 
 .contactTextArea {
     height: 200px;
+}
+
+.contactTextRowDiv{
+    margin-top: -20px;
 }
 
 .nav {
@@ -38,13 +46,25 @@
 .card {
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     opacity: 0.7!important;
-    padding: 50px;
+    padding: 60px;
     column-gap: 200px!important;
 
 }
 
+.cardHeading {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.submitButton {
+    margin-top: -35px;
+    width: 95px;
+    font-family: "Amatic SC";
+    font-size: 16px;
+    font-weight: bolder;
+}
 
 /*Media Query*/
 @media only screen and (max-width: 992px) {

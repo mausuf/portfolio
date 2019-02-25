@@ -32,9 +32,10 @@
         <img class="active" src="assets/images/backgroundImage.png" alt="IAmMausufSheikh">
       </div>
       <div class="nav-wrapper container">
-          <a href="https://github.com/mausuf" class="brand-logo"><img src="assets/images/Octocat/GitHub-Mark-Light-64px.png" class="octoCat"></a>
-          <a href="https://www.linkedin.com/in/mausuf" class="brand-logo"><img src="assets/images/linkedIn.png" class="linkedIn"></a>
-
+        <div class="linkDiv">
+        <a href="https://github.com/mausuf" class="brand-logo brandLinkCat"><img src="assets/images/Octocat/GitHub-Mark-Light-64px.png" class="octoCat"></a>
+        <a href="https://www.linkedin.com/in/mausuf" class="brand-logo brandLinkLinked"><img src="assets/images/linkedIn.png" class="linkedIn"></a>
+        </div>
 
         <div class="nav-header center">
           <h1 class="nameHeading">Mausuf Sheikh</h1>
@@ -46,65 +47,106 @@
 
     <div id="portfolio" class="section gray">
       <div class="container">
+        <div class="gallery row"><!--First Row-->
 
-        <div class="gallery row">
-          <div class="col l5 m6 s12 offset-l1 card sintel">
+
+          <div class="col l5 m6 s12 offset-l1 card sintel"><!--About Me-->
             <div class="gallery-curve-wrapper">
               <div class="gallery-header">
-                <span>About Me</span>
+                <span class="cardHeading">About Me</span>
                 <p class="caption">
                     about me short
                 </p>
               </div>
             </div>
-          </div>
-          <div class="col l5 m6 s12 offset-l-1 card overhead">
-            <div class="gallery-curve-wrapper">
-              <div class="gallery-header">
-                <span>Contact Me</span>
-                <p class="caption">
-                    Send me a message...
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+          </div><!--About Me End-->
 
-        <div class="gallery row">
-          <div class="col l5 m6 s12 offset-l1 card sintel">
+          <div class="col l5 m6 s12 offset-r1 card overhead"><!--FoodFlix-->
             <div class="gallery-curve-wrapper">
               <div class="gallery-header">
-                <span>FoodFlix App</span>
+                <span class="cardHeading">FoodFlix App</span>
                 <p class="caption">
                   This is FoodFlix!
                 </p>
               </div>
             </div>
-          </div>
-          <div class="col l5 m6 s12 offset-l-1 card overhead">
+          </div><!--FoodFlix End-->
+
+
+
+
+        </div><!--First Row End-->
+
+
+        <div class="gallery row"><!--Second Row-->
+
+
+
+
+          <div class="col l5 m6 s12 offset-l1 card sintel"><!--Additional Apps-->
             <div class="gallery-curve-wrapper">
               <div class="gallery-header">
-                <span>Additional Apps</span>
+                <span class="cardHeading">Additional Apps</span>
                 <p class="caption">
                   See more exciting apps!
                 </p>
               </div>
             </div>
-          </div>
-        </div>
+          </div><!--Additional Apps End-->
 
-      </div>
-    </div><!-- /.container -->
+          <div class="col l5 m6 s12 offset-r1 card overhead"><!--Contact Me-->
+            <div class="gallery-curve-wrapper">
+              <div class="gallery-header">
+                <span class="cardHeading">Contact Me</span>
+                <p class="caption">
+                  Send me a message...
+                </p>
+                <form class="col s12">
+                  <!--<div class="row">-->
+                    <div class="input-field col s6 contactTextRowDiv">
+                      <input id="first_name" type="text" class="validate">
+                      <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6 contactTextRowDiv">
+                      <input id="last_name" type="text" class="validate">
+                      <label for="last_name">Last Name</label>
+                    </div>
+                  <!--</div>-->
+                  <!--<div class="row">-->
+                    <div class="input-field col s12 contactTextRowDiv">
+                      <input id="email" type="email" class="validate">
+                      <label for="email">apple@gmail.com</label>
+                    </div>
+                  <!--</div>-->
+                  <!--<div class="row">-->
+                    <div class="input-field col s12 contactTextRowDiv">
+                      <textarea id="message" class="materialize-textarea"></textarea>
+                      <label for="message">Message here...</label>
+                    </div>
+                  <!--</div>-->
+                </form>
+                <button class="btn-small waves-effect waves-yellow submitButton" type="submit" name="action">Send
+                  <i class="material-icons right">send</i>
+                </button>
+              </div>
+            </div>
+          </div><!--Contact Me End-->
+
+
+        </div><!--Second Row End-->
+
+      </div>  <!--/.container-->
+    </div><!-- /.section -->
 
 
     <!-- Core Javascript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/masonry.pkgd.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>-->
+    <!--<script src="assets/js/imagesloaded.pkgd.min.js"></script>-->
+    <!--<script src="assets/js/masonry.pkgd.min.js"></script>-->
     <script src="assets/js/materialize.min.js"></script>
-    <script src="assets/js/color-thief.min.js"></script>
-    <script src="assets/js/galleryExpand.js"></script>
-    <script src="assets/js/init.js"></script>
+    <!--<script src="assets/js/color-thief.min.js"></script>-->
+    <!--<script src="assets/js/galleryExpand.js"></script>-->
+    <!--<script src="assets/js/init.js"></script>-->
 
   </body>
 </html>
