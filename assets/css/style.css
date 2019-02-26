@@ -132,11 +132,13 @@
     .octoCat {
         margin: auto;
         margin-left: -54px;
+        margin-top: 10px;
     }
 
     .linkedIn{
         margin: auto;
         margin-left: 0px;
+        margin-top: 10px;
         /*z-index: 2!important;*/
     }
 
@@ -151,10 +153,12 @@
 
     .CV {
         margin-left: 50px!important;
+        margin-top: 10px;
     }
 
     .card {
         width: 100% !important;
+
     }
 
     .contactCard, .aboutMeCard, .ffCard, .addAppsCard  {
