@@ -1,10 +1,21 @@
-.brandLinkCat, .brandLinkLinked, .octoCat, .linkedIn, .brandLinkCV {
+.brandLinkCat, .brandLinkLinked, .octoCat, .linkedIn, .brandLinkCV, .CV {
     width: 34px;
     height: 34px;
+    /*margin-left: ;*/
     /*margin-bottom: -100px;*/
+    z-index: 1!important;
+}
+
+.brandLinkCat {
+    margin-left: auto ;
+}
+
+.brandLinkLinked {
+    margin-left: auto ;
 }
 
 .brandLinkCV {
+    margin-left: auto;
     /*margin-top: -1px!important;*/
 }
 
@@ -47,7 +58,11 @@
     height: 250px;
 }
 
-.nav-header {
+.nav-wrapper {
+    z-index: -1!important;
+}
+
+.titleDiv {
     opacity: 0.8;
 }
 
@@ -55,9 +70,8 @@
     margin-bottom: 0px;
 }
 
-.tagLine, .nameHeading, {
+.tagLine, .nameHeading{
     font-weight: bolder!important;
-    opacity:.5!important;
 }
 
 .nameHeading {
@@ -67,7 +81,7 @@
 
 .tagLine {
     font-size: 24px!important;
-    margin-top: -20px;
+    /*margin-top: -20px;*/
 }
 
 .card {
