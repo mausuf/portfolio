@@ -131,17 +131,26 @@
 @media only screen and (max-width: 992px) {
     .octoCat {
         margin: auto;
-        margin-left: -44px;
+        margin-left: -54px;
     }
 
     .linkedIn{
         margin: auto;
         margin-left: 0px;
+        /*z-index: 2!important;*/
     }
 
+    .brandLinkLinked {
+        z-index: 2!important;
+    }
+
+    /*.brandLinkCV {*/
+        /*margin: auto;*/
+        /*margin-right: -54px;*/
+    /*}*/
+
     .CV {
-        margin: auto;
-        margin-left: 40px;
+        margin-left: 50px!important;
     }
 
     .card {
@@ -150,6 +159,13 @@
 
     .contactCard, .aboutMeCard, .ffCard, .addAppsCard  {
         margin: auto ;
+    }
+
+    .nameHeading {
+        font-size: 60px!important;
+    }
+    .tagLine {
+        font-size: 22px!important;
     }
 
 }
