@@ -110,7 +110,7 @@
 }
 
 .captionAbout {
-    margin-bottom: -80px;
+    margin-bottom: 30px;
 }
 
 .submitButton {
@@ -130,9 +130,18 @@
 }
 
 .addAppsCard {
-    margin-top: -190px;
+    margin-top: -16%!important;
+
 }
 
+.contactCard {
+    margin-top: 1.5%!important;
+}
+
+.robot {
+    width: 30%;
+    height: auto;
+}
 
 
 
