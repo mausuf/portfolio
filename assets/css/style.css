@@ -130,7 +130,7 @@
 }
 
 .addAppsCard {
-    margin-top: -16%!important;
+    margin-top: -19%!important;
 
 }
 
@@ -139,10 +139,14 @@
 }
 
 .robot {
-    width: 30%;
+    width: 80%;
     height: auto;
+    margin: auto;
 }
 
+.nodeBotCardRow {
+    margin-left: auto!important;
+}
 
 
 
