@@ -16,7 +16,6 @@
     <!--2 Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie|VT323" rel="stylesheet">
 
-
     <!-- Stylesheet -->
     <link href="assets/css/gallery-materialize.min.css" rel="stylesheet">
 
@@ -25,6 +24,10 @@
 
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+    <!--Email JS-->
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script type="text/javascript">(function(){emailjs.init("user_7gJ9UK1dHtR1wXTZXdkxu");})();</script>
   </head>
 
   <body>
@@ -35,19 +38,16 @@
         <img class="active z-depth-4" src="assets/images/backgroundImage.png" alt="IAmMausufSheikh">
       </div>
 
-
       <div class="nav-wrapper container">
         <a href="https://github.com/mausuf" class="brand-logo brandLinkCat"><img src="assets/images/Octocat/GitHub-Mark-Light-64px.png" class="octoCat"></a>
         <a href="https://www.linkedin.com/in/mausuf" class="brand-logo brandLinkLinked"><img src="assets/images/linkedIn.png" class="linkedIn"></a>
         <a href="https://drive.google.com/file/d/1u1BocmwwtDNf7mTNnIr5-ZnaV1lnQ0hQ/view?usp=sharing" class="brand-logo brandLinkCV"><img src="assets/images/cviconw.png" class="CV"></a>
-        </div>
+      </div>
 
       <div class="nav-header center titleDiv">
         <h1 class="nameHeading">Mausuf Sheikh</h1>
         <h6 class="tagLine">Aspiring Web Developer</h6>
       </div>
-
-
 
     </nav>
 
@@ -86,14 +86,10 @@
           </div><!--FoodFlix End-->
 
 
-
-
         <!--</div>&lt;!&ndash;First Row End&ndash;&gt;-->
 
 
         <!--<div class="gallery row">&lt;!&ndash;Second Row&ndash;&gt;-->
-
-
 
 
           <div class="col l5 m6 s12 offset-l1 card addAppsCard sintel z-depth-3 gallery-item"><!--Additional Apps-->
@@ -124,10 +120,10 @@
                 <p class="caption">
                   Send me a message...
                 </p>
-                <form class="col s12">
+                <form class="col s12" id="myForm">
                   <!--<div class="row">-->
                     <div class="input-field col s6 contactTextRowDiv">
-                      <input id="first_na2me" type="text" class="validate">
+                      <input id="first_name" type="text" class="validate">
                       <label for="first_name">First Name</label>
                     </div>
                     <div class="input-field col s6 contactTextRowDiv">
@@ -146,11 +142,14 @@
                       <textarea id="message" class="materialize-textarea"></textarea>
                       <label for="message">Message here...</label>
                     </div>
+
+                    <button class="btn-small waves-effect waves-yellow submitButton" type="submit" name="action">Send
+                      <i class="material-icons right">send</i>
+                    </button>
+
                   <!--</div>-->
                 </form>
-                <button class="btn-small waves-effect waves-yellow submitButton" type="submit" name="action">Send
-                  <i class="material-icons right">send</i>
-                </button>
+
               </div>
             </div>
           </div><!--Contact Me End-->
@@ -163,6 +162,7 @@
 
 
     <!-- Core Javascript -->
+    <script src="assets/js/form.js"></script>
     <!-- Firebase addition for contact info-->
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>-->
     <!--<script src="assets/js/imagesloaded.pkgd.min.js"></script>-->
