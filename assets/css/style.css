@@ -129,8 +129,12 @@
     position: relative!important;
 }
 
+.amazonCloneCard {
+    margin-top: -19%;
+}
+
 .addAppsCard {
-    margin-top: -19%!important;
+    margin-top: 1.5%!important;
 
 }
 
