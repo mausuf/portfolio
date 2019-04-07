@@ -192,10 +192,17 @@
 
     }
 
-    .contactCard, .aboutMeCard, .ffCard, .addAppsCard  {
+    .contactCard, .aboutMeCard, .ffCard, .addAppsCard, .amazonCloneCard  {
         margin: auto ;
     }
 
+    .ffCard{
+        margin-top: 4%;
+    }
+
+    .amazonCloneCard, .aboutMeCard {
+         margin-top: 1.5%;
+    }
 
     .nameHeading {
         font-size: 60px!important;
