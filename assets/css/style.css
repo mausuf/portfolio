@@ -130,20 +130,25 @@
 }
 
 .amazonCloneCard {
-    margin-top: -18.7%;
+    margin-top: -620px!important;
+}
+
+.palFinderCard {
+  margin-top: 1%;  
 }
 
 .addAppsCard {
-    margin-top: 1.5%!important;
-
+    margin-top: auto!important;
+    margin-left: 52%!important;
+    padding: auto!important;
 }
 
-.aboutMeCard {
+/* .aboutMeCard {
     margin-bottom: auto!important;
-}
+} */
 
 .contactCard {
-    margin-top: 1.5%!important;
+    margin-top: -40px!important;
 }
 
 .robot {
@@ -197,11 +202,16 @@
     }
 
     .ffCard{
-        margin-top: 4%;
+        margin-top: 1%;
     }
 
     .amazonCloneCard, .aboutMeCard {
          margin-top: 1.5%;
+    }
+
+    .addAppsCard, .amazonCloneCard, .contactCard {
+    margin-left: 0%!important;
+    margin-top: auto!important;
     }
 
     .nameHeading {
