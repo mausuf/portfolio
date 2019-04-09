@@ -1,3 +1,6 @@
+/*Media Query*/
+/* @media only screen and (max-width: 3000px) { */
+
 .brandLinkCat, .brandLinkLinked, .octoCat, .linkedIn, .brandLinkCV, .CV {
     width: 34px;
     height: 34px;
@@ -35,9 +38,6 @@
     height: 36px;
 }
 
-
-/*cards*/
-
 .profilePic {
     width: 100px;
     height: 100px;
@@ -58,9 +58,9 @@
     height: 250px;
 }
 
-.nav-wrapper {
+/* .nav-wrapper {
     /*z-index: -1!important;*/
-}
+/* } */
 
 .titleDiv {
     opacity: 0.8;
@@ -84,6 +84,8 @@
     margin-top: -20px;
 }
 
+/*cards*/
+
 .card {
     margin-left: 20px;
     margin-right: 20px;
@@ -91,7 +93,7 @@
     opacity: 0.85;
     padding: 60px;
     column-gap: 200px!important;
-    /*position: absolute;*/
+    position: fixed!important;
 }
 
 .contactCard {
@@ -102,15 +104,6 @@
     font-size: 30px;
     font-weight: bolder;
     color: #595959;
-}
-
-.caption {
-    color: #595959 !important;
-    font-size: 22px;
-}
-
-.captionAbout {
-    margin-bottom: 30px;
 }
 
 .submitButton {
@@ -125,41 +118,103 @@
     position: relative!important;
 }
 
-.row {
+/* .row {
     position: relative!important;
-}
+} */
 
 .amazonCloneCard {
-    margin-top: -620px!important;
+    /* margin-top: -1120px!important; */
+    position: relative!important;
 }
 
 .palFinderCard {
   margin-top: 1%;  
 }
 
-.addAppsCard {
-    margin-top: auto!important;
+
+.caption {
+    color: #595959 !important;
+    font-size: 22px;
+    /* Below is the key for full screen structure */
+    height: 0px!important; 
+}
+
+/* Right Cards WORKING*/
+.ffCard, .contactCard, .addAppsCard {
+    /* margin-top: 0px!important; */
+    /* position: relative!important; */
+}
+.addAppsCard, .ffCard, .contactCard{
+    /* margin-top: auto!important; */
     margin-left: 52%!important;
     padding: auto!important;
 }
-
-/* .aboutMeCard {
-    margin-bottom: auto!important;
-} */
-
+.ffCard {
+    top: -7px;
+    bottom: auto!important;
+    position: absolute!important;
+    height: 550px!important;
+}
+.addAppsCard{
+    top:565px;
+    position: absolute!important;
+    height: 400px!important;
+}
 .contactCard {
-    margin-top: -40px!important;
+ top: 980px!important;
+ position: absolute!important;
+ height: 420px!important;
+}
+.contactCaption{
+    height: 100px!important;
+}
+
+
+/* Left Cards INPROGRESS*/
+.aboutMeCard, .amazonCloneCard, .palFinderCard {
+    margin-bottom: auto!important;
+    margin-top: auto!important;
+    /* position: absolute!important; */
+    margin-left: 0%!important;
+}
+.aboutMeCard{
+    position: absolute!important;
+    /* original below */
+    /* position: absolute!important; */
+    top: 0px!important;
+    height: 370px!important
+}
+
+.amazonCloneCard {
+    top: 390px!important;
+    position: absolute!important; 
+    height: 600px!important;
+    /* padding-top: 20px; */
+}
+.palFinderCard {
+    top: 1010px!important;
+    position: absolute!important;
+    height: 640px!important;
+    margin-bottom: 30px!important;
 }
 
 .robot {
-    width: 80%;
-    height: auto;
+    width: auto;
+    height: 150px!important;
     margin: auto;
+}
+
+.constructImage {
+    width: 305px!important;
+    height: 115px!important;
 }
 
 .nodeBotCardRow {
     margin-left: auto!important;
 }
+/* End Media */
+/* }; */
+
 
 
 
@@ -192,26 +247,42 @@
         margin-top: 10px;
     }
 
-    .card {
+    .card, .caption {
         width: 100% !important;
-
+        height: 100%!important;
     }
 
-    .contactCard, .aboutMeCard, .ffCard, .addAppsCard, .amazonCloneCard  {
-        margin: auto ;
+    .contactCard, .aboutMeCard, .ffCard, .addAppsCard, .amazonCloneCard, .palFinderCard  {
+        /* margin: auto !important ; */
+        position: relative!important;
     }
+
 
     .ffCard{
-        margin-top: 1%;
+        margin-top: 30px!important;
+        margin-left: 0%!important;
+    }
+    
+    .addAppsCard {
+        margin-top: -570px!important;
+        height: 450px!important;
+    }
+    
+
+    .amazonCloneCard {
+        margin-top: 80px!important;
     }
 
-    .amazonCloneCard, .aboutMeCard {
-         margin-top: 1.5%;
+    .palFinderCard {
+        margin-top: -595px!important;
+    }
+
+    .contactCard{
+        margin-top: 25px!important;
     }
 
     .addAppsCard, .amazonCloneCard, .contactCard {
     margin-left: 0%!important;
-    margin-top: auto!important;
     }
 
     .nameHeading {
@@ -219,6 +290,11 @@
     }
     .tagLine {
         font-size: 22px!important;
+    }
+
+    .robot {
+        height: 150px!important;
+        width: 100px!important;
     }
 
 }
