@@ -23,17 +23,17 @@
 }
 
 .octoCat {
-    margin-left: 80px ;
+    margin-left: 0px ;
     /*margin-top: -15px;*/
 }
 
 .linkedIn {
-    margin-left: 130px ;
+    margin-left: 50px ;
     /*margin-top: -15px;*/
 }
 
 .CV {
-    margin-left: 174px;
+    margin-left: 95px;
     width: 36px;
     height: 36px;
 }
@@ -206,7 +206,7 @@
 
 .constructImage {
     width: 305px!important;
-    height: 115px!important;
+    height: 135px!important;
 }
 
 .nodeBotCardRow {
