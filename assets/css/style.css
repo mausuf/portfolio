@@ -1,6 +1,21 @@
 /*Media Query*/
 /* @media only screen and (max-width: 3000px) { */
 
+    /* Testing */
+    .body {
+        display: flex!important;
+        min-height: 100vh!important;
+        flex-direction: column!important;
+      }
+    
+      .main {
+        flex: 1 0 auto!important;
+      }
+    
+    /* End Testing */
+
+
+
 .brandLinkCat, .brandLinkLinked, .octoCat, .linkedIn, .brandLinkCV, .CV {
     width: 34px;
     height: 34px;
@@ -145,24 +160,39 @@
     /* margin-top: 0px!important; */
     /* position: relative!important; */
 /* } */
-.addAppsCard, .ffCard, .contactCard{
+.addAppsCard, .ffCard, .contactCard, .wwwmbCard{
     /* margin-top: auto!important; */
     margin-left: 52%!important;
     padding: auto!important;
 }
-.ffCard {
+.wwwmbCard {
     top: -7px;
     bottom: auto!important;
     position: absolute!important;
+    height: 655px!important;
+}
+.wwwmbImg {
+    max-height: 265px;
+}
+
+.ffCard{
+    top: 670px!important;
+    /* bottom: auto!important; */
+    position: absolute!important;
     height: 550px!important;
 }
+.ffImg {
+    max-height: 200px;
+}
+
+
 .addAppsCard{
-    top:565px;
+    top:1240px!important;
     position: absolute!important;
     height: 400px!important;
 }
 .contactCard {
- top: 980px!important;
+ top: 1650px!important;
  position: absolute!important;
  height: 420px!important;
 }
@@ -253,25 +283,30 @@
         height: 100%!important;
     }
 
-    .contactCard, .aboutMeCard, .ffCard, .addAppsCard, .amazonCloneCard, .palFinderCard  {
+    .contactCard, .aboutMeCard, .ffCard, .addAppsCard, .amazonCloneCard, .palFinderCard, .wwwmbCard  {
         /* margin: auto !important ; */
         position: relative!important;
     }
 
-
-    .ffCard{
+    .wwwmbCard {
         margin-top: 30px!important;
         margin-left: 0%!important;
     }
+
+    .ffCard{
+        margin-top: -675px!important;
+        margin-left: 0%!important;
+        height: 595px!important;
+    }
     
     .addAppsCard {
-        margin-top: -570px!important;
+        margin-top: -625px!important;
         height: 450px!important;
     }
     
 
     .amazonCloneCard {
-        margin-top: 80px!important;
+        margin-top: 700px!important;
     }
 
     .palFinderCard {
@@ -279,11 +314,11 @@
     }
 
     .contactCard{
-        margin-top: 25px!important;
+        margin-top: -645px!important;
         margin-bottom: 30px!important;
     }
 
-    .addAppsCard, .amazonCloneCard, .contactCard {
+    .addAppsCard, .amazonCloneCard, .contactCard, .wwwmbCard {
     margin-left: 0%!important;
     }
 
@@ -300,3 +335,22 @@
     }
 
 }
+
+
+
+
+
+
+/* ================================= */
+/* ============FOOTER=============== */
+/* ================================= */
+
+
+
+
+
+
+
+/* ================================= */
+/* ==========./FOOTER=============== */
+/* ================================= */
