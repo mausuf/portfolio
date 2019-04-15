@@ -248,6 +248,37 @@
 
 
 
+/* ================================= */
+/* ============FOOTER=============== */
+/* ================================= */
+.page-footer {
+    top:2085px!important;
+    position: relative!important;
+    height: 150px!important;
+    background-color: #FCB000 !important;
+}
+
+.crColumn {
+    padding-bottom: 0px!important;
+    margin-left: auto!important;
+    z-index: 10!important;
+    margin-top: 30px!important;
+    /* padding: auto!important; */
+}
+
+.footList1 {
+    padding-left: 50px!important;
+}
+.footList2 {
+    padding-left: 30px!important;
+}
+
+/* ================================= */
+/* ==========./FOOTER=============== */
+/* ================================= */
+
+
+
 
 /*Media Query*/
 @media only screen and (max-width: 992px) {
@@ -334,23 +365,30 @@
         width: 100px!important;
     }
 
+/* =======FOOTER Media Query======== */
+/* ================================= */
+.page-footer {
+    margin-top:-650px!important;
+    position: relative!important;
+    height: 150px!important;
+}
+.footerRow {
+    padding-top: 5px!important;
+    position: absolute!important;
+    height: 110px!important;
+}
+.crColumn {
+    margin-left: 200px!important;
+    margin-right: auto!important;
+    position: absolute!important;
+}
+
+.footList1 {
+    padding-left: 50px!important;
+}
+.footList2 {
+    padding-left: 75px!important;
 }
 
 
-
-
-
-
-/* ================================= */
-/* ============FOOTER=============== */
-/* ================================= */
-
-
-
-
-
-
-
-/* ================================= */
-/* ==========./FOOTER=============== */
-/* ================================= */
+} /* END MOBILE MEDIA QUERY */
