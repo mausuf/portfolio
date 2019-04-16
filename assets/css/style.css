@@ -199,7 +199,7 @@
 .contactCard {
  top: 1505px!important;
  position: absolute!important;
- height: 420px!important;
+ height: 720px!important;
 }
 .contactCaption{
     height: 100px!important;
@@ -262,7 +262,7 @@
 /* ============FOOTER=============== */
 /* ================================= */
 .page-footer {
-    top:1980px!important;
+    top:2280px!important;
     position: relative!important;
     height: 150px!important;
     background-color: #FCB000 !important;
