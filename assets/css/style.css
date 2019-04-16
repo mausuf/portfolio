@@ -170,6 +170,7 @@
     bottom: auto!important;
     position: absolute!important;
     height: 655px!important;
+    z-index: -1!important;
 }
 .wwwmbImg {
     max-height: 265px;
@@ -247,6 +248,24 @@
 /* }; */
 
 
+
+
+.rightPin, .leftPin {
+    width: 40px!important;
+    height: auto!important;
+}
+
+.rightP{
+    /* margin-left: 470px!important; */
+    margin-left: 93%;
+    margin-top: -47px!important;
+    position: absolute!important;
+    z-index: 88!important;
+}
+.leftP {
+    margin-left: -35px!important;
+    margin-top: -10px!important;
+}
 
 
 /*Media Query*/
