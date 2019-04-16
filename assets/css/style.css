@@ -197,7 +197,7 @@
     height: 250px!important;
 }
 .contactCard {
- top: 1505px!important;
+ top: 1650px!important;
  position: absolute!important;
  height: 420px!important;
 }
@@ -262,7 +262,7 @@
 /* ============FOOTER=============== */
 /* ================================= */
 .page-footer {
-    top:1980px!important;
+    top:2120px!important;
     position: relative!important;
     height: 150px!important;
     background-color: #FCB000 !important;
@@ -294,6 +294,7 @@
     width: 40px!important;
     height: auto!important;
     z-index: 88!important;
+    opacity: 0.3!important;
 }
 .rightP{
     margin-left: 93%;
