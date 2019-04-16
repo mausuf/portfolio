@@ -154,6 +154,10 @@
     /* Below is the key for full screen structure */
     height: 0px!important; 
 }
+.aboutGallery {
+    margin-top: -35px!important;
+    z-index: -1;
+}
 
 /* Right Cards WORKING*/
 /* .ffCard, .contactCard, .addAppsCard { */
@@ -190,10 +194,10 @@
 .addAppsCard{
     top:1240px!important;
     position: absolute!important;
-    height: 400px!important;
+    height: 250px!important;
 }
 .contactCard {
- top: 1650px!important;
+ top: 1505px!important;
  position: absolute!important;
  height: 420px!important;
 }
@@ -232,9 +236,14 @@
 
 .robot {
     width: auto;
-    height: 150px!important;
+    height: 70px!important;
     margin: auto;
 }
+
+ .nodeCaptionDiv {
+        margin-top: -30px!important;
+}
+
 
 .constructImage {
     width: 305px!important;
@@ -249,14 +258,44 @@
 
 
 
+/* ================================= */
+/* ============FOOTER=============== */
+/* ================================= */
+.page-footer {
+    top:1980px!important;
+    position: relative!important;
+    height: 150px!important;
+    background-color: #FCB000 !important;
+}
 
+.crColumn {
+    padding-bottom: 0px!important;
+    margin-left: auto!important;
+    z-index: 10!important;
+    margin-top: 30px!important;
+    /* padding: auto!important; */
+}
+
+.footList1 {
+    padding-left: 50px!important;
+}
+.footList2 {
+    padding-left: 30px!important;
+}
+
+/* ================================= */
+/* ==========./FOOTER=============== */
+/* ================================= */
+
+
+
+/* =============Push Pins=========== */
 .rightPin, .leftPin {
     width: 40px!important;
     height: auto!important;
+    z-index: 88!important;
 }
-
 .rightP{
-    /* margin-left: 470px!important; */
     margin-left: 93%;
     margin-top: -47px!important;
     position: absolute!important;
@@ -265,7 +304,9 @@
 .leftP {
     margin-left: -35px!important;
     margin-top: -10px!important;
+    z-index: 88!important;
 }
+/* ==========End Push Pins========= */
 
 
 /*Media Query*/
@@ -349,27 +390,34 @@
     }
 
     .robot {
-        height: 150px!important;
-        width: 100px!important;
+        height: 190px!important;
+        width: auto!important;
     }
+   
+/* =======FOOTER Media Query======== */
+/* ================================= */
+.page-footer {
+    margin-top:-650px!important;
+    position: relative!important;
+    height: 150px!important;
+}
+.footerRow {
+    padding-top: 5px!important;
+    position: absolute!important;
+    height: 110px!important;
+}
+.crColumn {
+    margin-left: 200px!important;
+    margin-right: auto!important;
+    position: absolute!important;
+}
 
+.footList1 {
+    padding-left: 50px!important;
+}
+.footList2 {
+    padding-left: 75px!important;
 }
 
 
-
-
-
-
-/* ================================= */
-/* ============FOOTER=============== */
-/* ================================= */
-
-
-
-
-
-
-
-/* ================================= */
-/* ==========./FOOTER=============== */
-/* ================================= */
+} /* END MOBILE MEDIA QUERY */
