@@ -197,7 +197,7 @@
     height: 250px!important;
 }
 .contactCard {
- top: 1650px!important;
+ top: 1505px!important;
  position: absolute!important;
  height: 420px!important;
 }
@@ -262,7 +262,7 @@
 /* ============FOOTER=============== */
 /* ================================= */
 .page-footer {
-    top:2120px!important;
+    top:1980px!important;
     position: relative!important;
     height: 150px!important;
     background-color: #FCB000 !important;
@@ -375,7 +375,7 @@
     }
 
     .contactCard{
-        margin-top: -645px!important;
+        margin-top: -500px!important;
         margin-bottom: 30px!important;
     }
 
@@ -398,7 +398,7 @@
 /* =======FOOTER Media Query======== */
 /* ================================= */
 .page-footer {
-    margin-top:-650px!important;
+    margin-top:-480px!important;
     position: relative!important;
     height: 150px!important;
 }
