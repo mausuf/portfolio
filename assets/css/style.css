@@ -224,13 +224,13 @@
 .amazonCloneCard {
     top: 390px!important;
     position: absolute!important; 
-    height: 600px!important;
+    height: 615px!important;
     /* padding-top: 20px; */
 }
 .palFinderCard {
-    top: 1010px!important;
+    top: 1025px!important;
     position: absolute!important;
-    height: 640px!important;
+    height: 655px!important;
     margin-bottom: 30px!important;
 }
 
