@@ -207,7 +207,7 @@
 
 
 /* Left Cards INPROGRESS*/
-.aboutMeCard, .amazonCloneCard, .palFinderCard {
+.aboutMeCard, .amazonCloneCard, .palFinderCard , .GuruSocietyCard {
     margin-bottom: auto!important;
     margin-top: auto!important;
     /* position: absolute!important; */
@@ -221,14 +221,22 @@
     height: 370px!important
 }
 
-.amazonCloneCard {
+.GuruSocietyCard {
+    position: absolute!important;
+    /* original below */
+    /* position: absolute!important; */
     top: 390px!important;
+    height: 700px!important
+}
+
+.amazonCloneCard {
+    top: 1110px!important;
     position: absolute!important; 
     height: 615px!important;
     /* padding-top: 20px; */
 }
 .palFinderCard {
-    top: 1025px!important;
+    top: 1750px!important;
     position: absolute!important;
     height: 655px!important;
     margin-bottom: 30px!important;
@@ -253,6 +261,11 @@
 .nodeBotCardRow {
     margin-left: auto!important;
 }
+
+.gurusocietyImg {
+    max-height: 180px;
+}
+
 /* End Media */
 /* }; */
 
@@ -262,7 +275,7 @@
 /* ============FOOTER=============== */
 /* ================================= */
 .page-footer {
-    top:2080px!important;
+    top:2410px!important;
     position: relative!important;
     height: 150px!important;
     background-color: #FCB000 !important;
